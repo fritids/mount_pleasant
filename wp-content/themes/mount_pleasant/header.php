@@ -58,10 +58,10 @@
         
         <?php if ( is_user_logged_in() ) : ?>
         <a href="<?php echo site_url('/members/blog'); ?>">Out of Bounds Blog</a>
-        <a href="">Contact Us</a>
+        <a href="<?php echo site_url('/members/contact-us/'); ?>">Contact Us</a>
           <a href="<?php echo wp_logout_url( site_url() ); ?>">Logout</a>
         <?php else : ?>
-          <a href="">Contact Us</a>
+          <a href="<?php echo site_url('/guests/contact-us/'); ?>">Contact Us</a>
           <a class="button" href="<?php echo site_url('/members/'); ?>">Members</a>
         <?php endif; ?>
       </nav>
