@@ -1,0 +1,21 @@
+@import "compass/reset";
+@import "normalize";
+@import "compass/css3";
+@import "compass/typography";
+@import "comments";
+
+
+// colors
+$mp_blue: darken(#007dc3,7%);
+$mp_green: darken(#00ab4f,12%);
+
+
+// fonts
+$font_family: 'Lato', sans-serif;
+$font_uBold: 900;
+$font_bold: 700;
+$font_normal: 400;
+
+@mixin new-link-colors($reg,$hover) {
+  @include link-colors($reg,$hover,$reg,$reg,$reg);
+}
