@@ -80,7 +80,7 @@ h3 {
   height: 225px;
   width: 100%;
   margin: 0 auto;
-  background: url('../images/banner.jpg') center -171px no-repeat;
+  background: url('../images/banner.jpg') center -171px no-repeat #333;
   position: relative;
   .content {
     position: relative;
@@ -124,6 +124,7 @@ h3 {
   }
 }
 .faded_area {
+  display: none;
   position: absolute;
   width: 500px;
   height: 225px;

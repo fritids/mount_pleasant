@@ -678,7 +678,7 @@ h3 {
   height: 225px;
   width: 100%;
   margin: 0 auto;
-  background: url("../images/banner.jpg") center -171px no-repeat;
+  background: url("../images/banner.jpg") center -171px no-repeat #333333;
   position: relative;
 }
 /* line 85, ../scss/screen.scss */
@@ -730,6 +730,7 @@ h3 {
 
 /* line 126, ../scss/screen.scss */
 .faded_area {
+  display: none;
   position: absolute;
   width: 500px;
   height: 225px;
@@ -738,13 +739,13 @@ h3 {
   background-color: #aaa;
   opacity: 0.35;
 }
-/* line 134, ../scss/screen.scss */
+/* line 135, ../scss/screen.scss */
 .faded_area.right {
   right: -500px;
   left: auto;
 }
 
-/* line 140, ../scss/screen.scss */
+/* line 141, ../scss/screen.scss */
 .nav_ban {
   position: absolute;
   width: 100%;
@@ -752,48 +753,48 @@ h3 {
   bottom: 0px;
   left: 0px;
 }
-/* line 146, ../scss/screen.scss */
+/* line 147, ../scss/screen.scss */
 .nav_ban > div {
   width: 900px;
   margin: 0 auto;
 }
 
-/* line 153, ../scss/screen.scss */
+/* line 154, ../scss/screen.scss */
 .menu {
   float: right;
 }
-/* line 155, ../scss/screen.scss */
+/* line 156, ../scss/screen.scss */
 .menu > li {
   float: left;
   display: block;
   position: relative;
   overflow: visible;
 }
-/* line 160, ../scss/screen.scss */
+/* line 161, ../scss/screen.scss */
 .menu > li.current_page_parent > a, .menu > li.current_page_item > a {
   background-color: white;
   color: #00669f;
 }
-/* line 164, ../scss/screen.scss */
+/* line 165, ../scss/screen.scss */
 .menu > li:last-of-type > .sub-menu {
   right: 0px;
   left: auto;
   z-index: 100;
 }
-/* line 170, ../scss/screen.scss */
+/* line 171, ../scss/screen.scss */
 .menu > li:hover > a, .menu > li:hover.current_page_parent {
   background: url("../images/black_linen_v2.png") top left repeat;
   color: #eee;
 }
-/* line 174, ../scss/screen.scss */
+/* line 175, ../scss/screen.scss */
 .menu > li:hover > .sub-menu {
   display: block;
 }
-/* line 178, ../scss/screen.scss */
+/* line 179, ../scss/screen.scss */
 .menu > li:last-child > a {
   border-right: 1px solid #00456c;
 }
-/* line 182, ../scss/screen.scss */
+/* line 183, ../scss/screen.scss */
 .menu a {
   display: block;
   padding: 10px 15px;
@@ -801,7 +802,7 @@ h3 {
   color: white;
   border-left: 1px solid #00456c;
 }
-/* line 190, ../scss/screen.scss */
+/* line 191, ../scss/screen.scss */
 .menu ul {
   display: none;
   position: absolute;
@@ -811,11 +812,11 @@ h3 {
   border-left: 1px solid #555;
   border-right: 1px solid #555;
 }
-/* line 198, ../scss/screen.scss */
+/* line 199, ../scss/screen.scss */
 .menu ul li {
   float: none;
 }
-/* line 201, ../scss/screen.scss */
+/* line 202, ../scss/screen.scss */
 .menu ul a {
   white-space: nowrap;
   background: url("../images/black_linen_v2.png") top left repeat;
@@ -824,92 +825,92 @@ h3 {
   border-left: none;
   color: #eee;
 }
-/* line 208, ../scss/screen.scss */
+/* line 209, ../scss/screen.scss */
 .menu ul a:hover {
   background-color: #111;
   background-image: none;
   color: white;
 }
 
-/* line 219, ../scss/screen.scss */
+/* line 220, ../scss/screen.scss */
 .middle {
   background-color: white;
   padding: 20px 0;
 }
 
-/* line 225, ../scss/screen.scss */
+/* line 226, ../scss/screen.scss */
 .main article {
   float: left;
   width: 550px;
 }
-/* line 228, ../scss/screen.scss */
+/* line 229, ../scss/screen.scss */
 .main article.full_width {
   width: 900px;
 }
-/* line 231, ../scss/screen.scss */
+/* line 232, ../scss/screen.scss */
 .main article img {
   max-width: 100%;
   height: auto;
 }
-/* line 236, ../scss/screen.scss */
+/* line 237, ../scss/screen.scss */
 .main .img_contain {
   float: right;
   margin: 25px 0px 20px 20px;
 }
-/* line 240, ../scss/screen.scss */
+/* line 241, ../scss/screen.scss */
 .main ul, .main ol {
   margin: 0 0 25px 25px;
 }
-/* line 242, ../scss/screen.scss */
+/* line 243, ../scss/screen.scss */
 .main ul li, .main ol li {
   margin: 10px 0 10px 25px;
 }
-/* line 244, ../scss/screen.scss */
+/* line 245, ../scss/screen.scss */
 .main ul li ul, .main ul li ol, .main ol li ul, .main ol li ol {
   margin: 0;
 }
-/* line 250, ../scss/screen.scss */
+/* line 251, ../scss/screen.scss */
 .main ul li {
   list-style-type: disc;
 }
-/* line 255, ../scss/screen.scss */
+/* line 256, ../scss/screen.scss */
 .main ol li {
   list-style-type: decimal;
 }
 
-/* line 263, ../scss/screen.scss */
+/* line 264, ../scss/screen.scss */
 .members_home .left {
   width: 58%;
   float: left;
 }
-/* line 267, ../scss/screen.scss */
+/* line 268, ../scss/screen.scss */
 .members_home .right {
   width: 38%;
   float: right;
 }
 
-/* line 273, ../scss/screen.scss */
+/* line 274, ../scss/screen.scss */
 .upcoming_events .button {
   margin-top: 25px;
 }
 
-/* line 279, ../scss/screen.scss */
+/* line 280, ../scss/screen.scss */
 .ai1ec-agenda-widget-view .ai1ec-event .ai1ec-event-time {
   display: block;
 }
 
-/* line 282, ../scss/screen.scss */
+/* line 283, ../scss/screen.scss */
 .ai1ec-agenda-widget-view .ai1ec-date {
   background: none;
   border-top: none;
 }
 
-/* line 286, ../scss/screen.scss */
+/* line 287, ../scss/screen.scss */
 .ai1ec-agenda-widget-view .ai1ec-event > a {
   min-height: 51px;
 }
 
-/* line 289, ../scss/screen.scss */
+/* line 290, ../scss/screen.scss */
 .ai1ec-agenda-widget-view .ai1ec-event .ai1ec-event-title {
   font-size: 16px;
   font-family: "Lato", sans-serif;
@@ -918,7 +919,7 @@ h3 {
   color: #333;
 }
 
-/* line 299, ../scss/screen.scss */
+/* line 300, ../scss/screen.scss */
 form input[type="text"], form input[type="password"], form input[type="email"] {
   border: none;
   outline: none;
@@ -928,51 +929,51 @@ form input[type="text"], form input[type="password"], form input[type="email"] {
   font-size: 18px;
 }
 
-/* line 309, ../scss/screen.scss */
+/* line 310, ../scss/screen.scss */
 #loginform {
   width: 308px;
   margin: 60px auto;
 }
-/* line 312, ../scss/screen.scss */
+/* line 313, ../scss/screen.scss */
 #loginform input[type="text"], #loginform input[type="password"], #loginform input[type="email"] {
   float: right;
   width: 200px;
 }
-/* line 317, ../scss/screen.scss */
+/* line 318, ../scss/screen.scss */
 #loginform label {
   float: left;
 }
-/* line 320, ../scss/screen.scss */
+/* line 321, ../scss/screen.scss */
 #loginform p {
   clear: both;
   overflow: hidden;
   line-height: 36px;
   margin-bottom: 10px;
 }
-/* line 325, ../scss/screen.scss */
+/* line 326, ../scss/screen.scss */
 #loginform p.login-remember, #loginform p.login-submit {
   float: right;
 }
 
-/* line 331, ../scss/screen.scss */
+/* line 332, ../scss/screen.scss */
 .sidebar {
   float: left;
   width: 300px;
   margin-left: 50px;
 }
-/* line 335, ../scss/screen.scss */
+/* line 336, ../scss/screen.scss */
 .sidebar li {
   margin-bottom: 10px;
   overflow: hidden;
   line-height: 1.4em;
 }
-/* line 339, ../scss/screen.scss */
+/* line 340, ../scss/screen.scss */
 .sidebar li a {
   float: left;
   display: block;
   width: 260px;
 }
-/* line 344, ../scss/screen.scss */
+/* line 345, ../scss/screen.scss */
 .sidebar li:before {
   content: '>';
   float: left;
@@ -980,7 +981,7 @@ form input[type="text"], form input[type="password"], form input[type="email"] {
   margin: 0 10px;
 }
 
-/* line 352, ../scss/screen.scss */
+/* line 353, ../scss/screen.scss */
 .widgettitle {
   font-size: 1em;
   margin: 40px 0 10px 0;
@@ -991,32 +992,32 @@ form input[type="text"], form input[type="password"], form input[type="email"] {
   font-weight: 400;
 }
 
-/* line 362, ../scss/screen.scss */
+/* line 363, ../scss/screen.scss */
 #blog_home_main, #search_main {
   float: left;
   width: 550px;
 }
 
-/* line 366, ../scss/screen.scss */
+/* line 367, ../scss/screen.scss */
 #main_footer {
   padding: 20px 0 100px 0;
 }
-/* line 368, ../scss/screen.scss */
+/* line 369, ../scss/screen.scss */
 #main_footer p {
   text-align: center;
   color: #ccc;
 }
-/* line 371, ../scss/screen.scss */
+/* line 372, ../scss/screen.scss */
 #main_footer p span {
   margin: 0 10px 0 0;
 }
-/* line 373, ../scss/screen.scss */
+/* line 374, ../scss/screen.scss */
 #main_footer p span:not(:last-child):after {
   content: '\2022';
   color: #666;
   margin-left: 10px;
 }
-/* line 379, ../scss/screen.scss */
+/* line 380, ../scss/screen.scss */
 #main_footer p strong {
   color: white;
 }
@@ -1030,7 +1031,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border: none;
 }
 
-/* line 386, ../scss/screen.scss */
+/* line 387, ../scss/screen.scss */
 .button, input[type='submit'] {
   display: inline-block;
   padding: .5em 2em .55em;
