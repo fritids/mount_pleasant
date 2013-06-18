@@ -39,7 +39,7 @@ get_header(); ?>
             }
           }
       ?>
-      <a href="/news" class="button">All MPGC News</a>
+      <a href="<?php echo site_url('/news'); ?>" class="button">All MPGC News</a>
     </div> <!-- .recent_news -->
     <div class="recent_posts">
       <h2>Out of Bounds Blog</h2>

@@ -898,56 +898,69 @@ h3 {
   color: #333;
 }
 
-/* line 278, ../scss/screen.scss */
-#loginform {
-  width: 308px;
-  margin: 60px auto;
-}
-/* line 281, ../scss/screen.scss */
-#loginform input[type="text"], #loginform input[type="password"] {
-  float: right;
+/* line 280, ../scss/screen.scss */
+form input[type="text"], form input[type="password"], form input[type="email"] {
   border: none;
   outline: none;
   background-color: #eee;
   border: 1px solid #ddd;
   padding: 8px 8px 6px 8px;
   font-size: 18px;
+}
+
+/* line 290, ../scss/screen.scss */
+#loginform {
+  width: 308px;
+  margin: 60px auto;
+}
+/* line 293, ../scss/screen.scss */
+#loginform input[type="text"], #loginform input[type="password"], #loginform input[type="email"] {
+  float: right;
   width: 200px;
 }
-/* line 291, ../scss/screen.scss */
+/* line 298, ../scss/screen.scss */
 #loginform label {
   float: left;
 }
-/* line 294, ../scss/screen.scss */
+/* line 301, ../scss/screen.scss */
 #loginform p {
   clear: both;
   overflow: hidden;
   line-height: 36px;
   margin-bottom: 10px;
 }
-/* line 299, ../scss/screen.scss */
+/* line 306, ../scss/screen.scss */
 #loginform p.login-remember, #loginform p.login-submit {
   float: right;
 }
 
-/* line 305, ../scss/screen.scss */
+/* line 312, ../scss/screen.scss */
 .sidebar {
   float: left;
   width: 300px;
   margin-left: 50px;
 }
-/* line 309, ../scss/screen.scss */
+/* line 316, ../scss/screen.scss */
 .sidebar li {
   margin-bottom: 10px;
+  overflow: hidden;
+  line-height: 1.4em;
 }
-/* line 311, ../scss/screen.scss */
+/* line 320, ../scss/screen.scss */
+.sidebar li a {
+  float: left;
+  display: block;
+  width: 260px;
+}
+/* line 325, ../scss/screen.scss */
 .sidebar li:before {
   content: '>';
+  float: left;
   color: #999;
   margin: 0 10px;
 }
 
-/* line 318, ../scss/screen.scss */
+/* line 333, ../scss/screen.scss */
 .widgettitle {
   font-size: 1em;
   margin: 40px 0 10px 0;
@@ -958,32 +971,32 @@ h3 {
   font-weight: 400;
 }
 
-/* line 328, ../scss/screen.scss */
+/* line 343, ../scss/screen.scss */
 #blog_home_main, #search_main {
   float: left;
   width: 550px;
 }
 
-/* line 332, ../scss/screen.scss */
+/* line 347, ../scss/screen.scss */
 #main_footer {
   padding: 20px 0 100px 0;
 }
-/* line 334, ../scss/screen.scss */
+/* line 349, ../scss/screen.scss */
 #main_footer p {
   text-align: center;
   color: #ccc;
 }
-/* line 337, ../scss/screen.scss */
+/* line 352, ../scss/screen.scss */
 #main_footer p span {
   margin: 0 10px 0 0;
 }
-/* line 339, ../scss/screen.scss */
+/* line 354, ../scss/screen.scss */
 #main_footer p span:not(:last-child):after {
   content: '\2022';
   color: #666;
   margin-left: 10px;
 }
-/* line 345, ../scss/screen.scss */
+/* line 360, ../scss/screen.scss */
 #main_footer p strong {
   color: white;
 }
@@ -997,7 +1010,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border: none;
 }
 
-/* line 352, ../scss/screen.scss */
+/* line 367, ../scss/screen.scss */
 .button, input[type='submit'] {
   display: inline-block;
   padding: .5em 2em .55em;
