@@ -962,26 +962,31 @@ form input[type="text"], form input[type="password"], form input[type="email"] {
   margin-left: 50px;
 }
 /* line 336, ../scss/screen.scss */
-.sidebar li {
-  margin-bottom: 10px;
+.sidebar ul {
+  margin: 0;
+}
+/* line 338, ../scss/screen.scss */
+.sidebar ul li {
+  margin: 0 0 10px 0;
+  list-style-type: none;
   overflow: hidden;
   line-height: 1.4em;
 }
-/* line 340, ../scss/screen.scss */
-.sidebar li a {
+/* line 343, ../scss/screen.scss */
+.sidebar ul li a {
   float: left;
   display: block;
   width: 260px;
 }
-/* line 345, ../scss/screen.scss */
-.sidebar li:before {
+/* line 348, ../scss/screen.scss */
+.sidebar ul li:before {
   content: '>';
   float: left;
   color: #999;
   margin: 0 10px;
 }
 
-/* line 353, ../scss/screen.scss */
+/* line 357, ../scss/screen.scss */
 .widgettitle {
   font-size: 1em;
   margin: 40px 0 10px 0;
@@ -992,32 +997,32 @@ form input[type="text"], form input[type="password"], form input[type="email"] {
   font-weight: 400;
 }
 
-/* line 363, ../scss/screen.scss */
+/* line 367, ../scss/screen.scss */
 #blog_home_main, #search_main {
   float: left;
   width: 550px;
 }
 
-/* line 367, ../scss/screen.scss */
+/* line 371, ../scss/screen.scss */
 #main_footer {
   padding: 20px 0 100px 0;
 }
-/* line 369, ../scss/screen.scss */
+/* line 373, ../scss/screen.scss */
 #main_footer p {
   text-align: center;
   color: #ccc;
 }
-/* line 372, ../scss/screen.scss */
+/* line 376, ../scss/screen.scss */
 #main_footer p span {
   margin: 0 10px 0 0;
 }
-/* line 374, ../scss/screen.scss */
+/* line 378, ../scss/screen.scss */
 #main_footer p span:not(:last-child):after {
   content: '\2022';
   color: #666;
   margin-left: 10px;
 }
-/* line 380, ../scss/screen.scss */
+/* line 384, ../scss/screen.scss */
 #main_footer p strong {
   color: white;
 }
@@ -1031,7 +1036,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border: none;
 }
 
-/* line 387, ../scss/screen.scss */
+/* line 391, ../scss/screen.scss */
 .button, input[type='submit'] {
   display: inline-block;
   padding: .5em 2em .55em;

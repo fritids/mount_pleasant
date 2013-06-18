@@ -333,20 +333,24 @@ form {
   float:left;
   width:300px;
   margin-left:50px;
-  li {
-    margin-bottom:10px;
-    overflow: hidden;
-    line-height: 1.4em;
-    a {
-      float: left;
-      display: block;
-      width:260px;
-    }
-    &:before {
-      content: '>';
-      float:left;
-      color: #999;
-      margin:0 10px;
+  ul {
+    margin:0;
+    li {
+      margin:0 0 10px 0;
+      list-style-type: none;
+      overflow: hidden;
+      line-height: 1.4em;
+      a {
+        float: left;
+        display: block;
+        width:260px;
+      }
+      &:before {
+        content: '>';
+        float:left;
+        color: #999;
+        margin:0 10px;
+      }
     }
   }
 }
