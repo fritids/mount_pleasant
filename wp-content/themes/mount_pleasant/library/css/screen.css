@@ -856,40 +856,60 @@ h3 {
   float: right;
   margin: 25px 0px 20px 20px;
 }
-
+/* line 240, ../scss/screen.scss */
+.main ul, .main ol {
+  margin: 0 0 25px 25px;
+}
+/* line 242, ../scss/screen.scss */
+.main ul li, .main ol li {
+  margin: 10px 0 10px 25px;
+}
 /* line 244, ../scss/screen.scss */
+.main ul li ul, .main ul li ol, .main ol li ul, .main ol li ol {
+  margin: 0;
+}
+/* line 250, ../scss/screen.scss */
+.main ul li {
+  list-style-type: disc;
+}
+/* line 255, ../scss/screen.scss */
+.main ol li {
+  list-style-type: decimal;
+}
+
+/* line 263, ../scss/screen.scss */
 .members_home .left {
   width: 58%;
   float: left;
 }
-/* line 248, ../scss/screen.scss */
+/* line 267, ../scss/screen.scss */
 .members_home .right {
   width: 38%;
   float: right;
 }
 
-/* line 254, ../scss/screen.scss */
+/* line 273, ../scss/screen.scss */
 .upcoming_events .button {
   margin-top: 25px;
 }
 
-/* line 260, ../scss/screen.scss */
+/* line 279, ../scss/screen.scss */
 .ai1ec-agenda-widget-view .ai1ec-event .ai1ec-event-time {
   display: block;
 }
 
-/* line 263, ../scss/screen.scss */
+/* line 282, ../scss/screen.scss */
 .ai1ec-agenda-widget-view .ai1ec-date {
   background: none;
   border-top: none;
 }
 
-/* line 267, ../scss/screen.scss */
+/* line 286, ../scss/screen.scss */
 .ai1ec-agenda-widget-view .ai1ec-event > a {
   min-height: 51px;
 }
 
-/* line 270, ../scss/screen.scss */
+/* line 289, ../scss/screen.scss */
 .ai1ec-agenda-widget-view .ai1ec-event .ai1ec-event-title {
   font-size: 16px;
   font-family: "Lato", sans-serif;
@@ -898,7 +918,7 @@ h3 {
   color: #333;
 }
 
-/* line 280, ../scss/screen.scss */
+/* line 299, ../scss/screen.scss */
 form input[type="text"], form input[type="password"], form input[type="email"] {
   border: none;
   outline: none;
@@ -908,51 +928,51 @@ form input[type="text"], form input[type="password"], form input[type="email"] {
   font-size: 18px;
 }
 
-/* line 290, ../scss/screen.scss */
+/* line 309, ../scss/screen.scss */
 #loginform {
   width: 308px;
   margin: 60px auto;
 }
-/* line 293, ../scss/screen.scss */
+/* line 312, ../scss/screen.scss */
 #loginform input[type="text"], #loginform input[type="password"], #loginform input[type="email"] {
   float: right;
   width: 200px;
 }
-/* line 298, ../scss/screen.scss */
+/* line 317, ../scss/screen.scss */
 #loginform label {
   float: left;
 }
-/* line 301, ../scss/screen.scss */
+/* line 320, ../scss/screen.scss */
 #loginform p {
   clear: both;
   overflow: hidden;
   line-height: 36px;
   margin-bottom: 10px;
 }
-/* line 306, ../scss/screen.scss */
+/* line 325, ../scss/screen.scss */
 #loginform p.login-remember, #loginform p.login-submit {
   float: right;
 }
 
-/* line 312, ../scss/screen.scss */
+/* line 331, ../scss/screen.scss */
 .sidebar {
   float: left;
   width: 300px;
   margin-left: 50px;
 }
-/* line 316, ../scss/screen.scss */
+/* line 335, ../scss/screen.scss */
 .sidebar li {
   margin-bottom: 10px;
   overflow: hidden;
   line-height: 1.4em;
 }
-/* line 320, ../scss/screen.scss */
+/* line 339, ../scss/screen.scss */
 .sidebar li a {
   float: left;
   display: block;
   width: 260px;
 }
-/* line 325, ../scss/screen.scss */
+/* line 344, ../scss/screen.scss */
 .sidebar li:before {
   content: '>';
   float: left;
@@ -960,7 +980,7 @@ form input[type="text"], form input[type="password"], form input[type="email"] {
   margin: 0 10px;
 }
 
-/* line 333, ../scss/screen.scss */
+/* line 352, ../scss/screen.scss */
 .widgettitle {
   font-size: 1em;
   margin: 40px 0 10px 0;
@@ -971,32 +991,32 @@ form input[type="text"], form input[type="password"], form input[type="email"] {
   font-weight: 400;
 }
 
-/* line 343, ../scss/screen.scss */
+/* line 362, ../scss/screen.scss */
 #blog_home_main, #search_main {
   float: left;
   width: 550px;
 }
 
-/* line 347, ../scss/screen.scss */
+/* line 366, ../scss/screen.scss */
 #main_footer {
   padding: 20px 0 100px 0;
 }
-/* line 349, ../scss/screen.scss */
+/* line 368, ../scss/screen.scss */
 #main_footer p {
   text-align: center;
   color: #ccc;
 }
-/* line 352, ../scss/screen.scss */
+/* line 371, ../scss/screen.scss */
 #main_footer p span {
   margin: 0 10px 0 0;
 }
-/* line 354, ../scss/screen.scss */
+/* line 373, ../scss/screen.scss */
 #main_footer p span:not(:last-child):after {
   content: '\2022';
   color: #666;
   margin-left: 10px;
 }
-/* line 360, ../scss/screen.scss */
+/* line 379, ../scss/screen.scss */
 #main_footer p strong {
   color: white;
 }
@@ -1010,7 +1030,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border: none;
 }
 
-/* line 367, ../scss/screen.scss */
+/* line 386, ../scss/screen.scss */
 .button, input[type='submit'] {
   display: inline-block;
   padding: .5em 2em .55em;
